@@ -1,0 +1,30 @@
+@font-face{
+    font-family: "Product Sans";
+    src: url('Recursos/Product\ Sans\ Regular.ttf')
+}
+
+@keyframes fadeIn { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+@keyframes fadeOut { 
+    0% { 
+        opacity: 1; 
+    } 
+    100% { 
+        opacity: 0; 
+     } 
+} 
+
+body { 
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+	margin: 0;
+	padding : 0;
+} 
