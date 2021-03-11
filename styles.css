@@ -27,4 +27,36 @@ body {
     animation-fill-mode: forwards; 
 	margin: 0;
 	padding : 0;
-} 
+}
+
+#topnav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+  }
+  
+#topnav a.link {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Product Sans';
+    font-size: 1vw;
+    color: #f7f7f7;
+  }
+  
+#topnav a.link:hover {
+    color: #cccccc;
+  }
+  
+#topnav img {
+     position: absolute;
+     padding-top: 1vw;
+     top: 50%;
+     transform: translate(5%, -50%);
+  }
+  
+#topnav a.active {
+    color: #f7f7f7;
+    font-weight: 700;
+  }
