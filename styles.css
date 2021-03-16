@@ -60,3 +60,16 @@ body {
     color: #f7f7f7;
     font-weight: 700;
   }
+
+td {
+  padding: 0.5vw 1vw;
+  color: #C0E7E2;
+  text-align: center;
+}
+
+video {
+  border: #f0f0f0;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+}
