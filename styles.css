@@ -46,7 +46,7 @@ body {
   }
   
 #topnav a.link:hover {
-    color: #cccccc;
+    color: rgb(226, 226, 226);
   }
   
 #topnav img {
@@ -67,7 +67,7 @@ td {
   text-align: center;
 }
 
-video {
+iframe {
   border: #C0E7E2;
   border-width: 5px;
   border-style: solid;
