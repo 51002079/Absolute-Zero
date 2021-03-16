@@ -66,3 +66,12 @@ td {
   color: #C0E7E2;
   text-align: center;
 }
+
+td img {
+  border: #C0E7E2;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 320px;
+  height: 240px;
+}
