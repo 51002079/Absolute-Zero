@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     font-family: 'Product Sans';
     font-size: 1vw;
-    color: #f7f7f7;
+    color: #C0E7E2;
   }
   
 #topnav a.link:hover {
@@ -57,7 +57,7 @@ body {
   }
   
 #topnav a.active {
-    color: #f7f7f7;
+    color: #C0E7E2;
     font-weight: 700;
   }
 
@@ -68,7 +68,7 @@ td {
 }
 
 video {
-  border: #f0f0f0;
+  border: #C0E7E2;
   border-width: 5px;
   border-style: solid;
   border-radius: 5px;
