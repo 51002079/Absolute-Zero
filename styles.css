@@ -1,6 +1,11 @@
 @font-face{
     font-family: "Product Sans";
-    src: url('Recursos/Product\ Sans\ Regular.ttf')
+    src: url('Resources/Product\ Sans\ Regular.ttf')
+}
+
+@font-face{
+  font-family: "Product Sans Bold";
+  src: url('Resources/Product\ Sans\ Bold.ttf')
 }
 
 @keyframes fadeIn { 
@@ -38,7 +43,7 @@ body {
 #topnav a.link {
     float: right;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.729166vw 0.8333333vw;
     text-decoration: none;
     font-family: 'Product Sans';
     font-size: 1vw;
@@ -61,6 +66,25 @@ body {
     font-weight: 700;
   }
 
+p.pltitle {
+  font-family: Product Sans Bold;
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 0;
+}
+
+p.plsub {
+  font-family: Product Sans;
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+p.pldate {
+  font-family: Product Sans;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
 td {
   padding: 0.5vw 2vw;
   color: #C0E7E2;
@@ -69,9 +93,14 @@ td {
 
 td img {
   border: #C0E7E2;
-  border-width: 5px;
+  border-width: 0.2604166vw;
   border-style: solid;
-  border-radius: 5px;
-  width: 320px;
-  height: 240px;
+  border-radius: 0.2604166vw;
+  width: 16.666666vw;
+  height: 12.5vw;
+}
+
+td iframe {
+  width: 27.76vw;
+  height: 15.62vw;
 }
