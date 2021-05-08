@@ -1,11 +1,11 @@
 @font-face{
     font-family: "Product Sans";
-    src: url('Resources/Product\ Sans\ Regular.ttf')
+    src: url('Resources/Product Sans Regular.ttf')
 }
 
 @font-face{
   font-family: "Product Sans Bold";
-  src: url('Resources/Product\ Sans\ Bold.ttf')
+  src: url('Resources/Product Sans Bold.ttf')
 }
 
 @keyframes fadeIn { 
