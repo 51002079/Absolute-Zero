@@ -63,13 +63,12 @@ body {
   
 #topnav a.active {
     color: #C0E7E2;
-    font-weight: 700;
+    font-family: Product Sans Bold;
   }
 
 p.pltitle {
   font-family: Product Sans Bold;
   font-size: 2vw;
-  font-weight: 700;
   margin: 0;
 }
 
